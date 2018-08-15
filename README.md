@@ -15,11 +15,11 @@ video<br>
             caption<br>
             ```photo.caption = captions[i];```<br>
             ```[photos addObject:photo];```
-3. ```LYPhotoBrowser *browser = [[LYPhotoBrowser alloc] initWithDelegate:self];
-    [browser setCurrentPhotoIndex:1];
-    [self presentViewController:browser animated:YES completion:nil];```
+3. ```LYPhotoBrowser *browser = [[LYPhotoBrowser alloc] initWithDelegate:self];```<br>
+    ```[browser setCurrentPhotoIndex:1];```<br>
+    ```[self presentViewController:browser animated:YES completion:nil];```
 4. delegate
-```#pragma mark - LYPhotoBrowserDelegate
+```
 - (NSUInteger)numberOfPhotosInPhotoBrowser:(LYPhotoBrowser *)photoBrowser {
     return self.photos.count;
 }
