@@ -1,10 +1,13 @@
 # LYPhotoBrowser
 
+<img src="https://github.com/yanliying/LYPhotoBrowser/blob/master/Screenshots/LYPhotoBrowser1.png" width="200" alt=""/>     <img src="https://github.com/yanliying/LYPhotoBrowser/blob/master/Screenshots/LYPhotoBrowser2.png" width="200" alt=""/>     <img src="https://github.com/yanliying/LYPhotoBrowser/blob/master/Screenshots/LYPhotoBrowser3.png" width="200" alt=""/>
+
 how to use
 
 1. delegate: LYPhotoBrowserDelegate
   
 2. photos,photo<br>
+The url is from network.
 ```
 NSMutableArray *photos = [NSMutableArray array];
 LYPhoto *photo;
